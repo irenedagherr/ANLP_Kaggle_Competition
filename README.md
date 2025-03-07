@@ -1,57 +1,57 @@
-# Advanced NLP Class: Kaggle Competition Guide
+# NI Language Classifier
 
-Welcome to the Advanced NLP Class Kaggle Competition! In this competition, you will be tasked with building a text
-classifier and reporting your results in a concise and scientific manner. This README will provide you with the
-necessary guidelines to successfully complete this competition.
+<img width="1180" alt="Screenshot 2024-04-10 at 10 31 13" src="https://github.com/Sorbeto1610/flutter_GIV/assets/147889016/a0bf9ae7-2186-49f2-9138-d01212a91495">
 
-This competition will account for 50% of the final grade. 
 
-## Competition Overview
+## Description
 
-The main goal of this competition is to build an effective text classifier and present your findings in a report that
-adheres to scientific community guidelines. The report should not exceed 2 pages, excluding references.
+This project is part of our Natural Language Processing (NLP) class. The goal is to apply well-known models to perform a widely used task: classification of languages in a text corpus.
 
-For this competition you are not allow to use any third party api (e.g. OpenAI and co).
+## Meaning 
 
-## Grading Criteria
+In this project, we address the problem of language identification in a given text corpus. Our objective is to utilize the knowledge gained during our NLP course to develop a language classification model. We explore various NLP approaches and methods to optimize language detection accuracy. This project falls within the fundamental domain of automatic language processing and serves as a practical application of text classification techniques.
 
-Your work will be graded based on the following criteria:
+To tackle this problem, we started with a classical Machine Learning approach before experimenting with more advanced models like RoBERTa and BERT.
 
-1. **Deliverable (15 points)**: Template is [here](https://2023.emnlp.org/downloads/emnlp2023-latex.zip).
-    - **Code (5 points)**: Your code should be readable, typed, and well-commented. Additionally, your GitHub repository
-      should be organized and easy to navigate.
-    - **Report (10 points)**: Your report should include the following sections:
-        - **Abstract (1 point)**: A brief summary of your work.
-        - **Introduction (2 points)**: An overview of the problem and the relevance of your work.
-        - **Solution (3 points)**: A detailed explanation of your approach and methodology.
-        - **Results and Analysis (4 points)**: A presentation of your results and a thorough analysis of them.
+## To keep in mind
 
-2. **Kaggle Results (5 points)**
-    - The top two teams will receive 5 points.
-    - Teams placing 3rd-4th will receive 4 points.
-    - Teams placing 5th-6th will receive 3 points.
-    - Teams placing 7th-8th will receive 2 points.
-    - Teams placing 9th-10th will receive 1 point.
+This project was very hard to run in the case where you don't have a GPU. This was the main issue in our case, obliging us to use less epochs and by consequence leading to a smaller accuracy.
 
-Put the report inside your git.
+## Collaborators
+- [@irenedagherr](https://github.com/irenedagherr)
+- [@Nancy-222](https://github.com/Nancy-222)
 
-## Competition Link
+## More Details
 
-You can access the competition via the following link: [https://www.kaggle.com/competitions/nlp-cs-2025](https://www.kaggle.com/competitions/nlp-cs-2025)
-## Submission Guidelines
+This project contains four main .ipynbs. And a latex document
 
-Please submit the link code and report in the [google sheet](link later). Make sure to follow the instructions
-carefully to ensure your submission is accepted.
+## Dataset
+
+To train and evaluate our model, we used two CSV files:
+
+-test_without_labels.csv: A test dataset containing texts to be classified, but without labels.
+
+-train_submission.csv: A training dataset with labeled texts, used for training the model.
 
 
 
-## Important Dates
+## Installation
+To run this project, follow these steps:
 
-On the kaggle. Last day of February.
+1-Clone the Repository : git clone https://github.com/your-repo/NI-Language-Classifier.git 
+cd NI-Language-Classifier
+
+2-Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+3-Run the jupyter notebook : jupyter notebook
+
+## Project Status
 
 
-## Contact
+We welcome feedback and contributions from the community! If you encounter any issues or have suggestions for improvement, please let us know by opening an issue on GitHub or reaching out to us on our community forums.
 
-If you have any questions or need further clarification, please don't hesitate to reach out to the course instructors.
 
-Good luck, and we look forward to seeing your text classifiers!
+
+
