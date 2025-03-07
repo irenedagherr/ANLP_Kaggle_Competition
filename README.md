@@ -1,6 +1,6 @@
 # NI Language Classifier
 
-<img width="1180" alt="Screenshot 2024-04-10 at 10 31 13" src="https://github.com/Sorbeto1610/flutter_GIV/assets/147889016/a0bf9ae7-2186-49f2-9138-d01212a91495">
+<img width="1180" alt="Screenshot 2024-04-10 at 10 31 13" src="https://github.com/ireenedagherr/ANLP_Kaggle_Competition/photo.jpg">
 
 
 ## Description
