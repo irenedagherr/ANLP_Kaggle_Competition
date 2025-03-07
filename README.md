@@ -1,6 +1,6 @@
 # NI Language Classifier
 
-<img width="1180" alt="Screenshot 2024-04-10 at 10 31 13" src="https://github.com/ireenedagherr/ANLP_Kaggle_Competition/photo.jpg">
+<img width="1180" alt="Screenshot 2024-04-10 at 10 31 13" src="photo.jpg">
 
 
 ## Description
